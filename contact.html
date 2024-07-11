@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #db6b6b;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .header .nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+        .header .nav a.contact {
+            padding: 5px 20px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 10px;
+        }
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+            background-color: gray;
+        }
+        .main .intro {
+            max-width: 60%;
+        }
+        .main .intro h1 {
+            font-size: 40px;
+            margin: 0 0 20px;
+        }
+        .main .intro h2 {
+            font-size: 30px;
+            margin: 0 0 20px;
+        }
+        .main .intro p {
+            font-size: 18px;
+            margin: 0 0 20px;
+        }
+        .main .intro .social {
+            display: flex;
+            gap: 20px;
+        }
+        .main .intro .social img {
+            width: 30px;
+            height: 30px;
+        }
+        .main .image {
+            max-width: 40%;
+        }
+        .main .image img {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><img src="./image/logo 1.png" alt=""></div>
+        <nav class="nav">
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact" class="contact">Contact Me</a>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="intro">
+            <p>Hi, I am</p>
+            <h1>Tomasz Gajda</h1>
+            <p>Front-end Developer / UI Designer</p>
+            <div class="social">
+                <a href="#"><img src="path/to/email-icon.png" alt="Email"></a>
+                <a href="#"><img src="path/to/github-icon.png" alt="GitHub"></a>
+                <a href="#"><img src="path/to/linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./image/image 17.png" alt="Tomasz Gajda">
+        </div>
+    </main>
+    <footer class="footer">
+        <p>IT BERRIES</p>
+        <p>
+            Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est. 
+            Nulla commodo, nisi in dignissim maximus, lacus odio rutrum augue, in semper sem magna quis tellus. Etiam mi erat, vestibulum eget augue, a dictum sit amet nec elit.
+            Nulla egestas nisi eget enim gravida facilisis. Pellentesque lobortis varius velit vel pharetra. Ut ante justo, consequat vitae elementum tempor, accumsan nec eros.
+        </p>
+        <a href="#">READ MORE</a>
+    </footer>
+</body>
+</html>
